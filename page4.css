@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body,html{
+    width:100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+.nav{
+    filter: brightness(50%);
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    
+    padding: 2vh 10vw;
+}
+.nav h1{
+    font-weight:bold;
+    font-size: 28px;
+    margin-right: 2vh;
+}
+.nav span{
+    color: #00A5EC;
+    letter-spacing: 2px;
+}
+#main{
+    
+    width: 100%;
+    min-height:calc(100% - 10vh);
+    padding:0 10vw;
+    background-color: #f7f7f7;
+    filter: brightness(50%);
+}
+#overlay{
+    border-radius: 10px;
+    width: 35vw;
+    height: 200px;
+    background-color:white;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    
+    
+    
+}
+#overlay #overlaytop{
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    
+}
+#overlay #overlaytop p{
+    color:black;
+    font-weight: 600;
+    opacity: 0.5;
+}
+#overlay #overlaytop i{
+    color:rgb(83, 81, 81);
+    opacity: 0.5;
+}
+#overlay #overlaybottom{
+    padding: 3vh 2vw;
+    width: 100%;
+    height:calc(100% - 9vh);
+
+}
+#overlay #overlaybottom #input{
+    width: 100%;
+    height: 6.5vh;
+    background-color: rgb(237, 233, 233);
+    border-radius: 6px;
+    padding: 1.2vh 1vh;
+    border: 1px solid rgb(206, 204, 204);
+    
+}
+#overlay #overlaybottom #input p{
+    color:rgb(99, 95, 95);
+    opacity: 0.5;
+}
+#overlay #overlaybottom #btn{
+    margin-top: 6vh;
+    display:flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+}
+#overlay #overlaybottom #btn button{
+    margin-right: 0px;
+    height: 6vh;
+    width: 10vw;
+    background-color:#00A5EC;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight:500;
+    opacity: 0.5;
+}
+a{
+    text-decoration: none;
+}
+.top {
+   
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 23vw;
+    color: black;
+   
+
+}
+
+#back {
+    display: flex;
+    align-items: center;
+
+}
+
+#icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#icon p{
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.top p {
+  
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.top i {
+    margin-right: 1vh;
+    opacity: 0.7;
+}
+
+#card {
+    cursor: pointer;
+ 
+    box-shadow: 0px 0px 5px #d4d4d4 , -1px -1px 5px #d4d4d4;
+    border-radius: 6px;
+    width: 35vw;
+    height: 45vh;
+    background-color: white;
+    margin: 4vh auto;
+}
+
+#cardtop {
+    padding-top: 3vh;
+    width: 100%;
+    height: 10vh;
+    opacity: 0.7;
+    text-align: center;
+   
+}
+hr{
+    opacity: 0.1;
+}
+
+#cardtop h3 {
+    color: #00A5EC;
+}
+
+.blur {
+    margin-top: 2vh;
+    padding: 0 1vw;
+    gap: 5px;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
+.blur i{
+    font-size: 28px;
+   color: black;
+   opacity: 0.3;
+}
+
+a{
+    text-decoration: none;
+}
+
+.blur p {
+    text-decoration: line-through;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.3;
+
+}
+
+
+
+.dark {
+    
+    margin-top: 3vh;
+    padding: 0 1vw;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dark i{
+    font-size: 28px;
+    color: black;
+    opacity: 0.3;
+}
+
+#darkp {
+    font-size: 12px;
+    font-weight: 900;
+    opacity: 0.3;
+}
